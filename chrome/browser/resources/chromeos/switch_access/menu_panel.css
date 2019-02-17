@@ -1,0 +1,47 @@
+/**
+ * Copyright 2018 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ */
+
+body {
+  background-color: #131313;
+  border: 1px solid #2C2C2C;
+  margin: 0;
+  padding: 7px;
+}
+div#switchaccess-menu-actions {
+  margin: auto;
+  padding: 2px;
+}
+.action {
+  color: white;
+  float: left;
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 12px;
+  height: 52px;
+  margin: 4px;
+  padding: 4px;
+  width: 80px;
+}
+button.action {
+  background: none;
+  border: none;
+}
+.action p {
+  margin: 0;
+}
+.focus {
+  outline: solid thick #78e428;  /** light green from automation_manager.js */
+}
+div.focus {
+  outline-color: #de742f;  /** dark orange from automation_manager.js */
+}
+img {
+  display: block;
+  height: 24px;
+  margin-bottom: 8px;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+}
+

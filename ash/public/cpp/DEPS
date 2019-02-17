@@ -1,0 +1,7 @@
+include_rules = [
+  "+components/prefs",
+  "+services/data_decoder/public",
+  "+services/device/public",
+  "+skia/public/interfaces",
+  "+ui/display",
+]
