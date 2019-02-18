@@ -32,8 +32,8 @@ class AssistantHeaderViewBinder
         public ViewHolder(Context context, View headerView) {
             mStatusMessage = headerView.findViewById(R.id.status_message);
             mProgressBar = new AnimatedProgressBar(headerView.findViewById(R.id.progress_bar),
-                    context.getResources().getColor(R.color.modern_blue_600),
-                    context.getResources().getColor(R.color.modern_blue_600_alpha_38_opaque));
+                    context.getResources().getColor(R.color.system_accent),
+                    context.getResources().getColor(R.color.system_accent_light));
             mFeedbackButton = headerView.findViewById(R.id.feedback_button);
             mCloseButton = headerView.findViewById(R.id.close_button);
         }

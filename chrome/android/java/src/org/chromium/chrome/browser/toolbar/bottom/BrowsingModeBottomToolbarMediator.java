@@ -138,7 +138,7 @@ class BrowsingModeBottomToolbarMediator
     void showIPH(ChromeActivity activity, View anchor, Tracker tracker) {
         if (!tracker.shouldTriggerHelpUI(FeatureConstants.CHROME_DUET_FEATURE)) return;
         int baseColor =
-                ApiCompatibilityUtils.getColor(anchor.getResources(), R.color.modern_blue_600);
+                ApiCompatibilityUtils.getColor(anchor.getResources(), R.color.system_accent);
 
         // Clear out the alpha and use custom transparency.
         int finalColor =

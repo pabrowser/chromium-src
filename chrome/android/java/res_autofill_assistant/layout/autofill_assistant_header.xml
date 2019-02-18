@@ -56,5 +56,5 @@
         android:layout_width="match_parent"
         android:layout_height="6dp"
         app:colorBackground="@color/modern_grey_100"
-        app:colorProgress="@color/modern_blue_600"/>
+        app:colorProgress="@color/system_accent"/>
 </merge>

@@ -6,6 +6,6 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke
         android:width="3dp"
-        android:color="@color/modern_blue_600" />
+        android:color="@color/system_accent" />
     <corners android:radius="@dimen/default_card_corner_radius" />
 </shape>

@@ -161,7 +161,7 @@ public class SideSlideLayout extends ViewGroup {
 
         int background = getContext().getResources().getColor(R.color.modern_grey_50);
         mCircleView = new CircleImageView(getContext(), background, CIRCLE_DIAMETER_DP / 2,
-                MAX_CIRCLE_RADIUS_DP, R.color.modern_blue_300);
+                MAX_CIRCLE_RADIUS_DP, R.color.system_accent_light);
 
         mArrow = new ArrowDrawable(getContext().getResources());
         mArrow.setBackgroundColor(background);

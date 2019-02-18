@@ -9,11 +9,11 @@
         android:color="@color/modern_secondary_color"
         android:state_enabled="false" />
     <item android:alpha="@dimen/chip_background_selected_focused_alpha"
-        android:color="@color/modern_blue_600"
+        android:color="@color/system_accent"
         android:state_selected="true"
         android:state_focused="true" />
     <item android:alpha="@dimen/chip_background_selected_alpha"
-        android:color="@color/modern_blue_600"
+        android:color="@color/system_accent"
         android:state_selected="true" />
     <item android:alpha="@dimen/default_focused_alpha"
         android:color="@color/modern_grey_800"

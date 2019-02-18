@@ -256,7 +256,7 @@ public class IncognitoNewTabPageViewMD extends IncognitoNewTabPageView {
         SpannableString textWithLearnMoreLink = new SpannableString(concatenatedText.toString());
 
         NoUnderlineClickableSpan span = new NoUnderlineClickableSpan(
-                R.color.modern_blue_300, (view) -> getManager().loadIncognitoLearnMore());
+                R.color.system_accent_light, (view) -> getManager().loadIncognitoLearnMore());
         textWithLearnMoreLink.setSpan(
                 span, subtitleText.length() + 1, textWithLearnMoreLink.length(), 0 /* flags */);
         mSubtitle.setText(textWithLearnMoreLink);
